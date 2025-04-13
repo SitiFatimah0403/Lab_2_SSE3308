@@ -238,9 +238,10 @@ span {
 }
 
 .mainPhoto {
-    margin: 0;
+    margin: 0 40px;
     border-radius: 20px;
     margin-top: 3px;
+    
 
 }
 
@@ -249,6 +250,7 @@ span {
     width: 300px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
     max-width: 90vw;
+    margin-top: 90px;
 }
 
 .mainText {
@@ -257,8 +259,21 @@ span {
     flex: 1;
     margin-top: 32px;
 
-
 }
+
+.centeredPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px; /* You can adjust this */
+  }
+  
+  .centeredPhoto img {
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    width: 250px;
+  }
 
 .mainText h1 {
     font-size: 3rem;
