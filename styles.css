@@ -382,4 +382,17 @@ tr:hover {
  
 }
 
+@media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .mainText {
+      padding-top: 1rem;
+      text-align: center;
+    }
+  }
+  
+
 
