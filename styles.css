@@ -266,7 +266,7 @@ span {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 50px; /* You can adjust this */
+    margin-top: 50px; 
   }
   
   .centeredPhoto img {
@@ -393,6 +393,6 @@ tr:hover {
       text-align: center;
     }
   }
-  
+  git push origin main  
 
 
