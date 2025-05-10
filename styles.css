@@ -379,6 +379,10 @@ tr:hover {
         padding: 12px 10px;
     }
 
+   textarea{
+    width: 80%;
+   }
+
  
 }
 
@@ -393,6 +397,13 @@ tr:hover {
       text-align: center;
     }
   }
-  git push origin main  
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
 
 
